@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import Image from "../../logo.svg";
+import classes from "./Navbar.module.css";
+
 import {
   Collapse,
   Navbar,
@@ -16,13 +19,13 @@ const Navigation = (props) => {
 
   return (
     <div>
-      <Navbar color="faded" light>
+      <Navbar light expand="md" fixed="top">
         <NavbarBrand href="/" className="mr-auto">
           Cache and Cookies
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
+          <Nav navbar className="container-fluid justify-content-end">
             <NavItem>
               <NavLink href="">About</NavLink>
             </NavItem>
