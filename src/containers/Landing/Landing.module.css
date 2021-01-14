@@ -1,0 +1,8 @@
+@media (max-width: 1100px) {
+  #headingGroup h1 {
+    font-size: 4rem;
+  }
+  #headingGroup h3 {
+    font-size: 1.25rem;
+  }
+}

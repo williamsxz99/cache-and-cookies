@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Image from "../../logo.svg";
-import classes from "./Navbar.module.css";
+import Logo from "../../logo.svg";
+import "./Navbar.module.css";
 
 import {
   Collapse,
