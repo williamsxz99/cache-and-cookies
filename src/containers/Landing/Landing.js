@@ -16,7 +16,7 @@ const Landing = () => {
             <h3>A-Z Website Design, Development, and Mastering</h3>
           </div>
         </div>
-        <div className="col-lg-5 px-5 order-1 order-lg-2 d-flex justify-content-center align-items-center hero-img">
+        <div className="col-lg-5 px-5 py-lg-5 order-1 order-lg-2 d-flex justify-content-center align-items-center hero-img">
           <img className="img-fluid" src={Logo} alt="Cache and Cookies Logo" />
         </div>
       </div>
