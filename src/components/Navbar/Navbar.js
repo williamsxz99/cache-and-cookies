@@ -18,33 +18,31 @@ const Navigation = (props) => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <div>
-      <Navbar light expand="md" fixed="top">
-        <NavbarBrand href="/" className="mr-auto">
-          Cache and Cookies
-        </NavbarBrand>
-        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-        <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar className="pl-2 pt-1">
-            <NavItem>
-              <NavLink href="">About</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="">Purpose</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="">Clients</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="">Team</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="">Get a Quote</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
-    </div>
+    <Navbar light expand="md" fixed="top">
+      <NavbarBrand href="/" className="mr-auto">
+        Cache and Cookies
+      </NavbarBrand>
+      <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+      <Collapse isOpen={!collapsed} navbar>
+        <Nav navbar className="pl-2 pt-1">
+          <NavItem>
+            <NavLink href="">About</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="">Purpose</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="">Clients</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="">Team</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="">Get a Quote</NavLink>
+          </NavItem>
+        </Nav>
+      </Collapse>
+    </Navbar>
   );
 };
 
