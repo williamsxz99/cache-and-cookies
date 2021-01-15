@@ -6,3 +6,9 @@
     font-size: 1.25rem;
   }
 }
+
+@media (max-width: 991px) {
+  .hero-img img {
+    max-width: 50%;
+  }
+}

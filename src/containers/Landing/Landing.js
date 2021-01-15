@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
-import Logo from "../../logo.svg";
+import Logo from "../../logo.png";
 import "./Landing.module.css";
 
 const Landing = () => {
@@ -16,8 +16,8 @@ const Landing = () => {
             <h3>A-Z Website Design, Development, and Mastering</h3>
           </div>
         </div>
-        <div className="col-lg-5 px-5 order-1 order-lg-2 align-items-center">
-          <img fluid src={Logo} alt="Cache and Cookies Logo" />
+        <div className="col-lg-5 px-5 order-1 order-lg-2 d-flex justify-content-center align-items-center hero-img">
+          <img className="img-fluid" src={Logo} alt="Cache and Cookies Logo" />
         </div>
       </div>
     </Container>

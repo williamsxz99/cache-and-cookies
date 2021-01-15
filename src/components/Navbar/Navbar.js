@@ -25,7 +25,7 @@ const Navigation = (props) => {
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar className="container-fluid justify-content-end">
+          <Nav navbar className="pl-2 pt-1">
             <NavItem>
               <NavLink href="">About</NavLink>
             </NavItem>
