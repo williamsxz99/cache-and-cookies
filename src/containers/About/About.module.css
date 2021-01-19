@@ -1,0 +1,17 @@
+.icon-box {
+}
+
+.icon {
+  float: left;
+  display: flex;
+  border: 2px solid black;
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fas {
+  font-size: 32px;
+}

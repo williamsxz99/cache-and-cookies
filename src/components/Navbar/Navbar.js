@@ -19,7 +19,7 @@ const Navigation = (props) => {
 
   return (
     <div className="fixed-top">
-      <Navbar color="faded" light className="navbar-expand-md">
+      <Navbar color="faded" light className="navbar-expand-md px-5">
         <NavbarBrand href="/" className="mr-auto">
           Cache and Cookies
         </NavbarBrand>
