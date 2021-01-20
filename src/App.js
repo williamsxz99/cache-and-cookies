@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Landing from "./containers/Landing/Landing";
 import About from "./containers/About/About";
 import Purpose from "./containers/Purpose/Purpose";
+import Clients from "./components/Clients/Clients";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Landing />
         <About />
         <Purpose />
+        <Clients />
       </div>
     );
   }
