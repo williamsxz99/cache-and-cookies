@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
-import Logo from "../../logo.png";
+import Logo from "./about.jpg";
 import "./About.module.css";
 
 const About = () => {
