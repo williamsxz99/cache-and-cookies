@@ -20,9 +20,9 @@ const About = () => {
                 Our team aims to create websites that inspire and empower all
                 its users.
               </p>
-              <div className="icon-box">
+              <div className="icon-box py-3">
                 <div className="icon">
-                  <i class="fas fa-cog"></i>
+                  <i class="fas fa-mobile-alt"></i>
                 </div>
                 <h4 class="title">Mobile-First Design Principle</h4>
                 <p>
@@ -30,9 +30,9 @@ const About = () => {
                   devices.
                 </p>
               </div>
-              <div className="icon-box">
+              <div className="icon-box py-3">
                 <div className="icon">
-                  <i class="fas fa-cog"></i>
+                  <i class="fas fa-wind"></i>
                 </div>
                 <h4 class="title">Efficient UI Design</h4>
                 <p>
@@ -40,9 +40,9 @@ const About = () => {
                   user experience.
                 </p>
               </div>
-              <div className="icon-box">
+              <div className="icon-box py-3">
                 <div className="icon">
-                  <i class="fas fa-cog"></i>
+                  <i class="fas fa-sliders-h"></i>
                 </div>
                 <h4 class="title">Unlimited Customization</h4>
                 <p>
