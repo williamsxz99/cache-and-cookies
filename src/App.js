@@ -5,6 +5,7 @@ import Landing from "./containers/Landing/Landing";
 import About from "./containers/About/About";
 import Purpose from "./containers/Purpose/Purpose";
 import Clients from "./components/Clients/Clients";
+import Team from "./containers/Team/Team";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <About />
         <Purpose />
         <Clients />
+        <Team />
       </div>
     );
   }
